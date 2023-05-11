@@ -1,20 +1,16 @@
 <template>
   <div>
-    <HeaderComponent />
-    <MainComponent />
-    <FooterComponent />
+    <HelloWorld />
   </div>
 </template>
 
 <script>
-import FooterComponent from './components/FooterComponent.vue';
-import HeaderComponent from './components/HeaderComponent.vue';
-import MainComponent from './components/MainComponent.vue';
-
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
-  components: { HeaderComponent, MainComponent, FooterComponent }
-}
+  name: 'App',
+  components: {
+    HelloWorld,
+  },
+};
 </script>
-
-<style lang="scss" scoped></style>
