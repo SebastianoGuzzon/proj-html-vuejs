@@ -6,4 +6,4 @@
 
 Steps
 - Frammenta il layout per definirlo;
--
+-Creare i tre componenti principali (Header, Main e Footer) all'interno della cartella "components".
