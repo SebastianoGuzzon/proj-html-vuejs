@@ -26,7 +26,7 @@
           <img src="../assets/img/images/info-bg.png" alt="">
         </div>
         <div class="text">
-          <h1>Find the ultimate virtual assistant for your business</h1>
+          <h1 style="color: #0D1168;">Find the ultimate virtual assistant for your business</h1>
           <p>Donec est tristique eu massa pellentesque non sit sit donec. Proin auctor est vehicula.</p>
           <button style="background-color: #F86636 ; width:200px;"><a
               href="https://avada.website/virtual-assistant/about-me/">What is
