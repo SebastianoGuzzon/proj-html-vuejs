@@ -14,22 +14,28 @@
 			</ul>
 			<div class="nav-right">
 				<a href="tel:1-800-123-4567"><i></i><span>1.800.123.4567</span></a>
-				<button style="background-color: #FFFFFF; border-radius: 6px; height: 50px"><a
-						href="https://avada.website/virtual-assistant/contact-me/" style="color: #030545;"><span>Get
+				<button class="btns-style"><a href="https://avada.website/virtual-assistant/contact-me/">
+						<strong>Get
 							a free
-							consultation</span></a></button>
+							consultation</strong> </a></button>
 			</div>
 		</nav>
 		<header class="header">
 
 			<div class="header-content">
-				<h1>Independent professional who works remotely to help with your business.</h1>
-				<p>Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.</p>
-				<button style="background-color: white; border-radius: 2px; width: 150px;
-				height: 40px;">Buy Avada now</button>
+				<div class="container3">
+					<div class="text">
+						<h1 style="margin-bottom: 20px;">Independent professional who works remotely to help with your business.</h1>
+						<p>Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.</p>
+						<button class="btns-style"><strong>Buy Avada now</strong> </button>
+					</div>
+
+					<div class="image">
+						<img src="../assets/img/images/info-5-400x444.jpg" alt="foto head">
+					</div>
+
+				</div>
 			</div>
-
-
 		</header>
 	</body>
 </template>
@@ -103,7 +109,7 @@ body {
 
 .header {
 	background-color: #0D1168;
-	height: 500px;
+	height: 600px;
 	position: relative;
 }
 
@@ -126,18 +132,55 @@ body {
 	text-align: center;
 	z-index: 2;
 	width: 35%;
+	display: flex;
+
 }
 
 .header-content h1 {
 	color: #fff;
-	font-size: 45px;
+	font-size: 30px;
 	margin: 0;
 
 }
 
 .header-content p {
 	color: #fff;
-	font-size: 19px;
+	font-size: 15px;
 	padding: 0 3vw;
+}
+
+.btns-style {
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 5px;
+	width: 200px;
+	height: 55px;
+	border: none;
+	color: #0D1168;
+}
+
+.btns-style:hover {
+	background-color: #0D1168;
+	color: white;
+}
+
+.image {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.container3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container3 .text {
+	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0 20px;
+
 }
 </style>
