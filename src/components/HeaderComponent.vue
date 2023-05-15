@@ -167,6 +167,7 @@ body {
 .image {
 	display: flex;
 	flex-direction: row-reverse;
+
 }
 
 .container3 {
@@ -178,7 +179,7 @@ body {
 .container3 .text {
 	margin-top: 100px;
 	display: flex;
-	align-items: center;
+	align-content: center;
 	flex-direction: column;
 	padding: 0 20px;
 
